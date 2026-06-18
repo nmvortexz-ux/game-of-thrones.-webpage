@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A cinematic Game of Thrones promotional-style experience with characters, houses, timeline, and Iron Throne lore.">
+    <title>Game of Thrones | The Realm Remembers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="loader" data-loader role="status" aria-live="polite" aria-label="Loading Game of Thrones experience">
+        <div class="loader-ring" aria-hidden="true"></div>
+        <p>Opening the Realm</p>
+    </div>
+
+    <canvas class="particle-canvas" data-particles aria-hidden="true"></canvas>
+
+    <header class="site-header" id="top">
+        <nav class="nav" aria-label="Primary navigation">
+            <a class="brand" href="#top" aria-label="Game of Thrones home">
+                <span class="brand-mark">GOT</span>
+                <span>Game of Thrones</span>
+            </a>
+
+            <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links" id="primary-navigation" data-nav-links>
+                <a href="#characters">Characters</a>
+                <a href="#houses">Great Houses</a>
+                <a href="#throne">Iron Throne</a>
+                <a href="#timeline">Timeline</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero section" aria-labelledby="hero-title">
+            <div class="hero-media" aria-hidden="true">
+                <video class="hero-video" autoplay muted loop playsinline poster="assets/jon%20snow.jpg">
+                    <source src="assets/intro%20of%20got.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <p class="eyebrow">The realm remembers</p>
+                <h1 id="hero-title">Game of Thrones</h1>
+                <p class="hero-copy">
+                    A cinematic journey through the houses, legends, betrayals, and impossible choices that shaped Westeros.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#characters">Enter the Realm</a>
+                    <a class="btn btn-ghost" href="#timeline">View Timeline</a>
+                </div>
+            </div>
+            <div class="hero-stats" aria-label="Website highlights">
+                <div>
+                    <strong>07</strong>
+                    <span>Kingdoms</span>
+                </div>
+                <div>
+                    <strong> 10</strong>
+                    <span> main Characters</span>
+                </div>
+                <div>
+                    <strong>7</strong>
+                    <span>Iron Throne</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section characters" id="characters" aria-labelledby="characters-title">
+            <div class="section-heading">
+                <p class="eyebrow">Faces of the realm</p>
+                <h2 id="characters-title">Characters</h2>
+                <p> character overviews for heroes, rulers, schemers, exiles, and ancient threats.</p>
+            </div>
+            <div class="character-grid" data-character-grid></div>
+        </section>
+
+        <section class="section houses" id="houses" aria-labelledby="houses-title">
+            <div class="section-heading">
+                <p class="eyebrow">Banners in the wind</p>
+                <h2 id="houses-title">Great Houses</h2>
+                <p>Each house carries a legacy of loyalty, ambition, conquest, and fire-forged identity.</p>
+            </div>
+            <div class="house-grid" data-house-grid></div>
+        </section>
+
+        <section class="section throne" id="throne" aria-labelledby="throne-title">
+            <div class="throne-panel">
+                <div class="throne-image" role="img" aria-label="Iron Throne artwork"></div>
+                <div class="throne-copy">
+                    <p class="eyebrow">Seat of power</p>
+                    <h2 id="throne-title">The Iron Throne</h2>
+                    <p>
+                        Forged from the swords of defeated enemies, the Iron Throne represents ultimate authority and the fierce struggle for control of Westeros.
+                    </p>
+                    <ul class="throne-list">
+                        <li><span>Origin</span> Aegon's Conquest</li>
+                        <li><span>Symbol</span> Symbol of Power</li>
+                        <li><span>Cost</span> Blood, loyalty, legacy</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section timeline" id="timeline" aria-labelledby="timeline-title">
+            <div class="section-heading">
+                <p class="eyebrow">Chronicles</p>
+                <h2 id="timeline-title">Timeline</h2>
+                <p>A compact journey through the conflicts that moved the realm from whispers to war.</p>
+            </div>
+            <div class="timeline-track" data-timeline-track></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div>
+            <a class="brand" href="#top">
+                <span class="brand-mark">GOT</span>
+                <span>Game of Thrones</span>
+            </a>
+            <p>A cinematic promotional-style tribute experience. Game of Thrones belongs to its respective rights holders.</p>
+        </div>
+        <div class="footer-links">
+            <a href="#characters">Characters</a>
+            <a href="#houses">Houses</a>
+            <a href="#throne">Throne</a>
+            <a href="#timeline">Timeline</a>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
