@@ -3,70 +3,70 @@ const characters = [
         name: "Arya Stark",
         role: "Fearless young warrior",
         house: "House Stark",
-        image: "assets/aarya%20%20stark.jpg",
+        image: "aarya stark.jpg",
         description: "A fearless young warrior who transforms from a noble girl into one of Westeros' deadliest assassins. Driven by courage and determination, Arya seeks justice in a world filled with conflict."
     },
     {
         name: "Cersei Lannister",
         role: "Powerful queen",
         house: "House Lannister",
-        image: "assets/cersi.jpg",
+        image: "cersi.jpg",
         description: "A powerful and ambitious queen known for her intelligence, political skill, and unwavering determination to protect her family's legacy."
     },
     {
         name: "Jaime Lannister",
         role: "Legendary knight",
         house: "House Lannister",
-        image: "assets/jamie%20lannister.jpg",
+        image: "jamie lannister.jpg",
         description: "A legendary knight whose journey challenges perceptions of honor, redemption, and loyalty throughout the Seven Kingdoms."
     },
     {
         name: "Daenerys Targaryen",
         role: "Mother of Dragons",
         house: "House Targaryen",
-        image: "assets/khalesi.jpg",
+        image: "khalesi.jpg",
         description: "Known as the Mother of Dragons, Daenerys rises from exile to become a powerful leader determined to reclaim her family's lost throne."
     },
     {
         name: "Petyr Baelish",
         role: "Littlefinger",
         house: "House Baelish",
-        image: "assets/little%20finger.jpg",
+        image: "little finger.jpg",
         description: "A master strategist and political manipulator whose schemes influence the fate of kingdoms from behind the scenes."
     },
     {
         name: "Eddard Stark",
         role: "Honorable lord",
         house: "House Stark",
-        image: "assets/ned%20stark.jpg",
+        image: "ned stark.jpg",
         description: "A respected lord known for his honor, integrity, and commitment to justice, even when faced with difficult choices."
     },
     {
         name: "Sansa Stark",
         role: "Resilient noblewoman",
         house: "House Stark",
-        image: "assets/sansa%20stark.jpg",
+        image: "sansa stark.jpg",
         description: "A resilient noblewoman who evolves from an innocent dreamer into a wise and capable leader."
     },
     {
         name: "Jon Snow",
         role: "Courageous warrior",
         house: "House Stark / Targaryen",
-        image: "assets/throne.jpg",
+        image: "jon snow.jpg",
         description: "A courageous warrior and leader who dedicates himself to protecting the realm from threats beyond the Wall."
     },
     {
         name: "Tyrion Lannister",
         role: "Sharp wit and intelligence",
         house: "House Lannister",
-        image: "assets/tyron%20Lannister.jpg",
+        image: "tyron Lannister.jpg",
         description: "Renowned for his sharp wit and intelligence, Tyrion uses wisdom and diplomacy to navigate a dangerous political world."
     },
     {
         name: "Night King",
         role: "Ancient winter force",
         house: "Leader of the White Walkers",
-        image: "assets/white%20walker.jpg",
+        image: "white walker.jpg",
         description: "An ancient and mysterious force leading an army of the dead, representing one of the greatest threats to Westeros."
     }
 ];
