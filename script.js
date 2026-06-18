@@ -1,9 +1,9 @@
 const characters = [
     {
-        name: "Arya stark",
+        name: "Aarya Stark",
         role: "Fearless young warrior",
         house: "House Stark",
-        image: "aarya stark.jpg",
+        image: "aarya  stark.jpg",
         description: "A fearless young warrior who transforms from a noble girl into one of Westeros' deadliest assassins. Driven by courage and determination, Arya seeks justice in a world filled with conflict."
     },
     {
