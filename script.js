@@ -1,6 +1,6 @@
 const characters = [
     {
-        name: "Arya Stark",
+        name: "Arya stark",
         role: "Fearless young warrior",
         house: "House Stark",
         image: "aarya stark.jpg",
