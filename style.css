@@ -599,16 +599,17 @@ h3 {
     overflow: hidden;
 }
 
-.throne-image {
-    min-height: 620px;
-    background:
-        linear-gradient(rgba(5, 6, 9, 0.08), rgba(5, 6, 9, 0.62)),
-        url("assets/jon%20snow.jpg") center/cover;
-}
 
 .throne-copy {
     align-self: center;
     padding: clamp(34px, 6vw, 76px);
+}
+
+.throne-image {
+    min-height: 620px;
+    background:
+        linear-gradient(rgba(5, 6, 9, 0.08), rgba(5, 6, 9, 0.62)),
+        url("jon snow.jpg") center/cover;
 }
 
 .throne-list {
